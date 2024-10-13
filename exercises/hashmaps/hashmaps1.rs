@@ -23,7 +23,7 @@ fn fruit_basket() -> HashMap<String, u32> {
 
     // TODO: Put more fruits in your basket here.
 
-    basket.insert(String::from("apple"), 1);
+    basket.insert(String::from("apple"),1);
     basket.insert(String::from("orange"), 2);
     basket.insert(String::from("mango"), 2);
 
@@ -47,3 +47,4 @@ mod tests {
         assert!(basket.values().sum::<u32>() >= 5);
     }
 }
+//get
